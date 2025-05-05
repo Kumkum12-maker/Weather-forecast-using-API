@@ -1,27 +1,32 @@
-# 🌦️ Weather Forecast Dashboard in Python
+# 🌦️ Weather Forecast and Visualization Project
 
-A simple weather dashboard that uses the OpenWeatherMap API to display live 5-day weather forecasts and visualizes temperature trends using `matplotlib`.
+This is a Python-based CLI project that combines live **current weather data** with a 5-day forecast and visualizations for:
+- Temperature
+- Humidity
+- Wind speed
 
-🚀 Features
-- Fetch weather forecast by city name
-- Plot temperature changes over 5 days (3-hour intervals)
-- Clean CLI interface
-- Optional data visualization
+Built using the OpenWeatherMap API and `matplotlib`, this project demonstrates working with APIs, JSON data extraction, and data visualization.
 
-🔧 Tech Stack
+🔧 Features
+-  Enter any city name to get live weather details
+-  Plots forecast trends every 3 hours over 5 days
+-  Visualizes temperature, humidity, and wind speed
+-  Handles invalid city inputs gracefully
+
+🛠 Tech Stack
 - Python 3
-- requests
-- matplotlib
+- `requests` for API calls
+- `matplotlib` for plotting graphs
 - OpenWeatherMap API
 
-📦 How to Run
-1. Clone this repo
-2. Run `pip install requests matplotlib`
-3. Add your API key in the script
-4. Run `python weather_visual.py`
+🚀 How to Run
+1. Clone the repo  
+2. Install required libraries:
+   ```bash
+   pip install requests matplotlib
 
 🌐 API Used
 [OpenWeatherMap 5-Day Forecast](https://openweathermap.org/forecast5)
 
 ## 👨‍💻 Author
-[Kumkum Suvasiya]()
+[Kumkum Suvasiya](www.linkedin.com/in/kumkum-suvasiya)
